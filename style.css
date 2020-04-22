@@ -1,0 +1,88 @@
+.cim{
+    font-family: 'Abril Fatface', cursive;
+    position: absolute;
+    width: 600px;
+    top:200px;
+    left: 300px;
+  }
+  h1{
+  /*   Ez Anakin neve a címben. A h2 marad a gyári beállítás,
+    ami egyébként a: "Hi, my name is" szöveg a neve felett.*/
+    margin-top: -35px;
+    font-size: 54px;  
+  }
+    img{
+      width: 1000px;    
+    }
+  .kontener1{
+  /*   Általános beállítás a szöveges részeknek */
+    width: 650px;
+    margin-left:175px;
+  }
+  p{
+  /*   Általános beállítás a szövegnek. Igazából csak a fenti két bekezdés ilyen.*/
+    font-family: 'Josefin Sans', sans-serif;
+    line-height: 1.5;
+  }
+  .elso_felsorolas{
+  /*   Az első lista eltér egy kicsit a többitől, ezért van külön osztálya. */
+    font-family: 'Josefin Sans', sans-serif;
+    list-style-type: square;
+    line-height: 1.7;
+  }
+  
+  h3::before{
+    content: '”';
+    font-size: 100px;
+    margin-top: -60px;
+    margin-left: -30px;
+  }
+  h3{
+  /*   ez a szürke hátteres cucc */
+    font-family: 'Abril Fatface', cursive;
+    font-size: 40px;
+    background: #444444;
+    padding: 30px;
+    width: 675px;
+    margin-left: 150px;
+    color: white;
+    display: flex;
+  }
+  
+  h4{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:24px;
+    text-transform: uppercase;
+  
+  }
+  
+  h5{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:20px;
+    }
+  
+  h6{
+    font-family: 'Merriweather', serif;
+    font-size:14px;
+    font-style: italic;
+    margin-top: -30px;
+    margin-bottom:0px;
+  }
+  .apro{
+  /*   Kisebb betűs szövegek. */
+    font-size: 15px;
+    
+  }
+  .kisbetus{
+  /*   Ez a kisbetűs listához van kitalálva. */
+    font-family: 'Josefin Sans', sans-serif;
+    list-style-type: square;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+  .vonal  {
+    background: #444444;
+    height: 5px;
+    width: 740px;
+    margin-left:150px;
+  }
